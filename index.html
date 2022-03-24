@@ -2,40 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Webpage</title>
-    <style media="screen">
-      div {
-        border: 3px solid black;
-        margin:4px
-  }
-      #content {
-        background-color: #008B8B
-      }
-      #headerBox {
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eddie's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+    function openNav() {
 
-      }
-      .segment {
-
-      }
-    </style>
+     var navBox = document.getElementById('menu');
+     navBox.style.display = 'block'
+    }
+    function closeNav() {
+      var navBox = document.getElementById('menu');
+      navBox.style.display = 'none'
+    }
+    </script>
   </head>
   <body>
-    <div id="content">
 
-      <div class="headerBox">
-        <h1>My Webpage</h1>
-      </div>
 
-    <div class="segment">
-      <img src="img/rogan.jpg" alt="Joe Rogan" style="width:250px;height:200px;">
-     <p>Hello my name is Eddie this is my webpage</p>
+
+    <style media="screen">
+
+    </style>
+    <h1>Welcome to my Webpage</h1>
+    <h2>Explore the Pages as Below</h2>
+    <p>⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇</p>
+    <div id="openMenu"onclick= "openNav()">
+  ☰
     </div>
+<div id="menu">
 
-<div class="segment">
-  <h2>Get To School 3</h2>
-  <a href="game.html"> Play Get to School 3</a>
+  <div id="closeMenu" class= "menuItem"onclick= "closeNav()">
+    <a href="#">Close Menu</a>
 </div>
 
-    </div>
+<div class="menuItem">
+  <a href="index.html">Home</a>
+  </div>
+<div class="menuItem">
+  <a href="me.html">About Me</a>
+
+
+</div>
+
+    <div class="menuItem">
+<a href="getToSchoolpage.html">Get To School</a>
+</div>
+
+      <div class="menuItem">
+        <a href="jsfighter.html">JSFighter</a>
+</div>
+
+</div>
+
+
   </body>
 </html>

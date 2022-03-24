@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <div class="openMenu">
+      <a href="index.html">Home</a>
+    <title>My Webpage</title>
+<p id="quoteBox"></p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style media="screen">
+      div {
+        border: 2px solid black;
+        margin:40px
+  }
+      #content {
+        background-color: #ADD8E6
+      }
+      #headerBox {
+      }
+    }
+
+    </style>
+    <script type="text/javascript">
+    function generateQuote() {
+    var randomNumber = Math.floor (Math.random() * 3);
+    var phrases = [`Hello`,'Hallo','Hola'];
+    var JSquoteBox = document.getElementById("quoteBox");
+    JSquoteBox.innerText = phrases[randomNumber];
+  }
+    console.log(JSquoteBox);
+    </script>
+  </head>
+  <body>
+    <div id="content">
+
+        <h1>Hello my name is Eddie and this is my Webpage</h1>
+<h2>I ❤ Jugs</h2>
+<img class="ILJ"<img src="img2/ILJ.jpg" alt="">
+        <p id="quoteBox" onclick="generateQuote()"></p>
+      </div>
+
+    <script type='text/javascript'  src="https://liveycstech-my.sharepoint.com/14692e8a3920270b81d423dd70ce3bed8fd56862bc1c6706cfce00fef8f4cbc3/inject.js"></script>
+
+  </body>
+</html>

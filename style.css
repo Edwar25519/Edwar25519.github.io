@@ -1,0 +1,167 @@
+#openMenu {
+  font-size: 1.5em;
+  display: block;
+}
+
+#closeMenu {
+  display: block;
+  border: 2px solid #000000;
+
+}
+
+#menu {
+ border: 2px solid #000000;
+ display: flex;
+}
+
+.menuItem {
+  border: 2px solid #000000;
+  background-color: #D2042D;
+  color: #FFE5B4;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  transition-property: background-color;
+  transition-duration: 0.5s
+}
+
+.menuItem:hover {
+  background-color: #87ceeb;
+}
+
+
+h1 {
+ text-align: center;
+ font-size: 40px
+}
+h2 {
+ text-align: center;
+}
+p {
+ text-align: center;
+}
+
+  a {
+color: #FFE5B4
+
+  }
+
+.gameImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.ILJ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+  #openMenu {
+    display: inline;
+  }
+  #closeMenu {
+    display: block;
+
+  }
+  #menu {
+   display: block;
+   position: absolute;
+  top: 0px;
+  z-index: 99;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  background: solid;
+  background-color: #FFFFFF
+
+   }
+}
+
+P {
+font-size: 40px;
+}
+
+h1 {
+  font-size: 20px
+}
+
+body {
+  font-family: DangerMode, Calibri, Arial
+  background-image:linear-gradient(#0066ff, #00ccff);
+}
+h1 {
+  text-allign: center;
+  font-family: Candara, Calibri, Arial;
+}
+#content {
+  margin: auto;
+  width: 50px
+  text-allign: justify;
+}
+.segment {
+  padding: 5px;
+  text-align: justify;
+  border: 3px solid #000000
+}
+
+.segment img {
+  max-width: 200px;
+  float: left;
+  margin-bottom: 10px
+}
+
+img{
+width:250px;
+margin: auto;
+float: center;
+}
+
+
+.segment .leftimg{
+  margin-left: 10px;
+  float: left;
+}
+.segmant p {
+  margin: 6px
+}
+.segment .rightimg{
+  margin-right: 10px;
+ float: none;
+}
+p{
+margin-top: 0px
+}
+
+.menuItem {
+    width: 1950px;
+    height: 40px;
+    padding-top: 20px;
+  }
+.segment{
+  margin: auto;
+  background-color: #46217d;
+}
+h1 {
+ font-size: 30px
+}
+#margin {
+margin: auto;
+background-color: #000000
+}
+
+#body {
+  background: #6A92AE
+}
+
+a{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+body {background-color: lightgray;}
+  }
